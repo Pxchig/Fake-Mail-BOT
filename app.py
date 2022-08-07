@@ -46,7 +46,7 @@ I can create **temp emails** for you. Send /new to **create new mail** !
 
 Send /domains to get list of Available Domains.
 
-**Developer** : @ImDenuwan | @szteambots 
+**Developer** : @its_dangerr |
 """
 
 CHANNEL_ID = int(os.environ['CHANNEL_ID'])
@@ -100,7 +100,7 @@ API3='https://www.1secmail.com/api/v1/?action=readMessage&login='
 #********************************************************************************
 
 create = InlineKeyboardMarkup(
-            [[InlineKeyboardButton("SZ team bots 🇱🇰", url="https://t.me/szteambots")]])
+            [[InlineKeyboardButton("SZ team bots 🇱🇰", url="https://t.me/CrazyBots_xd")]])
 
 #********************************************************************************
 @app.on_message(filters.command("new"))
@@ -158,7 +158,7 @@ async def mail_box(_, query : CallbackQuery):
 **📬Done,Your Email Address Created!**
 📧 **Email** : `{smail}`
 📨 **Mail BOX** : ✅
-**Powered by** : @szteambots""",
+**Powered by** : @CrazyBots_xd""",
 reply_markup = mbutton
 )   
         except bad_request_400.MessageNotModified as e:
